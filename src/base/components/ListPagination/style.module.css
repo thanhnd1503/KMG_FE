@@ -1,0 +1,82 @@
+.listPagination {
+  padding: 8px 16px;
+  border-top: 1px solid var(--list-stroke-footer, #cbd1e1);
+  background-color: var(--list-bg-footer, #f1f3f9);
+  /* border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listPagination__button {
+  cursor: pointer;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: var(--sm, 4px);
+  background: var(--pagination-bg-enabled, #f1f3f9);
+  color: var(--pagination-fg-number-enabled, #475069);
+  text-align: center;
+  /* Button/button-sm */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: -0.35px;
+}
+
+.listPagination__button:hover {
+  background: var(--pagination-bg-hovered, #cbd1e1);
+}
+
+.listPagination__button:active {
+  background: var(--pagination-bg-pressed, #475069);
+  color: var(--pagination-fg-number-pressed, #fff);
+}
+
+.listPagination__button svg {
+  font-size: 30px;
+  stroke-width: 1.33333;
+  width: 16px;
+  height: 16px;
+}
+
+.listPagination__buttonSelected {
+  background: #646e8b !important;
+  color: var(--pagination-fg-number-pressed, #fff);
+}
+
+.listPagination__countWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.listPagination__countMark {
+  color: var(--list-fg-label, #646e8b);
+  /* Body/body-text-lg */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: -0.35px;
+}
+
+.listPagination__countNumber {
+  color: var(--list-fg-label, #646e8b);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

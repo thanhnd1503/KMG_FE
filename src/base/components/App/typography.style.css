@@ -1,0 +1,115 @@
+/* title */
+.title-xl {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.025em;
+}
+
+.title-lg {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.025em;
+}
+
+.title-md {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.025em;
+}
+
+.title-sm {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.025em;
+}
+
+.title-xs {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.025em;
+}
+
+/* body */
+.body-text-lg {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+}
+
+.body-text-sm {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}
+
+.body-value-lbl {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}
+
+.body-value-val {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}
+
+.body-data-val {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}
+
+.body-data-lbl {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}
+
+/* caption */
+.caption {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}
+
+/* Button */
+.button-lg {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.025em;
+}
+
+.button-md {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+}
+
+.button-sm {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+}
+
+.button-xs {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}

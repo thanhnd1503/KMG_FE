@@ -1,0 +1,73 @@
+.filter-date-range .ant-picker .ant-picker-input {
+  /* display: none; */
+  width: 0;
+  overflow: hidden;
+}
+
+.filter-date-range .ant-picker .ant-picker-range-separator {
+  display: none;
+  width: 0;
+}
+
+.filter-date-range .ant-picker .ant-picker-active-bar {
+  display: none;
+  width: 0;
+}
+
+.filter-date-range-dropdown {
+  /* width: 182px; */
+  margin-top: -28px;
+  border: 1px solid var(--base-stroke-color-base-stroke-30, #cbd1e1);
+}
+
+.filter-date-range-dropdown .ant-picker-panel .ant-picker-header {
+  background: var(--base-bg-color-base-bg-10, #f1f3f9);
+  height: 29px;
+}
+
+.filter-date-range-dropdown .ant-picker-panel .ant-picker-header-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-date-range-dropdown .ant-picker-panel > *:first-child button.ant-picker-header-next-btn {
+  visibility: visible !important;
+}
+
+.filter-date-range-dropdown .ant-picker-panel > *:first-child button.ant-picker-header-super-next-btn {
+  visibility: visible !important;
+}
+
+.filter-date-range-dropdown .ant-picker-panels > *:last-child {
+  display: none !important;
+}
+
+.filter-date-range-dropdown.ant-picker-dropdown .ant-picker-range-arrow {
+  display: none;
+}
+
+.filter-date-range-dropdown.ant-picker-dropdown .ant-picker-body {
+  margin-top: 28px;
+  padding: 8px;
+}
+
+.filter-date-range-dropdown.ant-picker-dropdown .ant-picker-footer {
+  border-top: none;
+}
+
+.filter-date-range-dropdown .ant-picker-month-btn {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  letter-spacing: -0.025em;
+  text-align: center !important;
+}
+
+.filter-date-range-dropdown .ant-picker-year-btn {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  letter-spacing: -0.025em;
+  text-align: center !important;
+}

@@ -1,0 +1,85 @@
+.scroll-box {
+    -ms-overflow-style: none; /* IE and Edge */
+    /* scrollbar-width: none; */
+    /* Firefox */
+    overflow-y: auto !important;
+  }
+  
+  .scroll-box::-webkit-scrollbar:vertical {
+    display: none; /* Chrome, Safari, Opera*/
+  }
+  
+  .scroll-box::-webkit-scrollbar:horizontal {
+    display: block; /* Ensures horizontal scrollbar is not affected */
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../public/assets/fonts/woff/Pretendard-Light.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../public/assets/fonts/woff/Pretendard-Regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../public/assets/fonts/woff/Pretendard-Medium.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../public/assets/fonts/woff/Pretendard-SemiBold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../public/assets/fonts/woff/Pretendard-Bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../public/assets/fonts/woff2/Pretendard-Light.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../public/assets/fonts/woff2/Pretendard-Regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../public/assets/fonts/woff2/Pretendard-Medium.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../public/assets/fonts/woff2/Pretendard-SemiBold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../public/assets/fonts/woff2/Pretendard-Bold.woff2') format('woff2');
+  }
+  
+  * {
+    font-family: 'Pretendard', sans-serif;
+  }
+  
+  #webpack-dev-server-client-overlay {
+    display: none;
+  }
+  

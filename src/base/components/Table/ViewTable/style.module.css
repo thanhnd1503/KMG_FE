@@ -1,0 +1,11 @@
+.row {
+  flex: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  min-width: 0;
+  white-space: nowrap;
+}

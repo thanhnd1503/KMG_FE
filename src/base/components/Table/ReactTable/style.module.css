@@ -1,0 +1,127 @@
+.list-trip-table {
+  /* margin-top: 10px; */
+  border: 1px solid var(--gray-1);
+  background: white;
+  overflow-x: auto;
+  /* border-radius: 10px; */
+  box-shadow: var(--box-shadow);
+  font-size: 1rem;
+}
+
+.list-trip-table table {
+  width: 100%;
+  /* text-align: center; */
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.list-trip-table tbody tr:nth-child(odd) {
+  background: var(--list-bg-body-odd-enabled, #ffffff);
+}
+
+.list-trip-table tbody tr:nth-child(even) {
+  background: var(--list-bg-body-even-enabled, #f8f9fc);
+}
+
+.list-trip-table tbody tr:hover {
+  /* background: var(--list-bg-body-hovered, #e2e5f0); */
+  background: var(--list-bg-body-hovered, #f1f3f9);
+}
+
+.list-trip-table td {
+  /* vertical-align: middle; */
+  text-wrap: nowrap;
+  padding-inline: 8px;
+}
+
+.list-trip-table tbody tr:focus {
+  background-color: var(--list-bg-body-pressed, #e0e7ff);
+}
+
+.list-trip-table tbody tr:active {
+  background-color: var(--list-bg-body-pressed, #e0e7ff);
+}
+
+.list-trip-table th {
+  color: #646E8B;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.list-trip-table tr:first-of-type th:first-of-type {
+  padding-left: 16px !important;
+}
+
+.list-trip-table tr:first-of-type th:last-of-type {
+  padding-right: 16px !important;
+}
+
+.list-trip-table td:first-of-type {
+  padding-left: 16px !important;
+}
+
+.list-trip-table td:last-of-type {
+  padding-right: 16px !important;
+}
+
+.div-center {
+  margin: 0px auto;
+  width: fit-content;
+  padding: 8px;
+}
+
+.title {
+  color: var(--gray-scorpion);
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  border-radius: 10px;
+  height: calc(100% - 10px);
+  background-color: #00000073;
+}
+
+.title.right-subtitle::before {
+  left: unset;
+  margin: auto;
+  right: -9px;
+}
+
+.subTitle__left {
+  color: var(--primary-color);
+  margin-right: 9px;
+  padding-right: 9px;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.subTitle__right {
+  color: var(--primary-color);
+  margin-left: 9px;
+  padding-left: 9px;
+  font-size: 1.1rem;
+}
+
+.pagination-wrapper {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: flex-end;
+}
+
+.pagination {
+  border-radius: 6px;
+  background-color: #ededed;
+  padding: 2px 4px;
+  margin-bottom: 16px;
+  width: fit-content;
+}

@@ -1,0 +1,101 @@
+.wrapper {
+  border: 1px solid var(--gray-1);
+  background: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  overflow: auto;
+  max-height: 182px;
+}
+
+.wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: auto; 
+}
+
+.wrapper tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.wrapper tr.active {
+  background-color: #E8F2FF;
+}
+
+.wrapper td {
+  padding: 6px;
+  vertical-align: top;
+  line-height: 2;
+  text-wrap: nowrap;
+}
+
+.wrapper th {
+  padding: 5px;
+  background: white;
+  color: #646E8B;
+  font-weight: 500;
+  text-wrap: nowrap;
+  text-align: start;
+  position: sticky; 
+  top: 0;
+  z-index: 2;
+}
+.wrapper th:last-child {
+  text-align: end;
+}
+
+.div-center {
+  margin: 0px auto;
+  width: fit-content;
+  padding: 8px;
+}
+
+.title {
+  color: var(--gray-scorpion);
+  position: relative;
+  font-size: 1.1rem;
+}
+.title::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  border-radius: 10px;
+  height: calc(100% - 10px);
+  background-color: #00000073;
+}
+.title.right-subtitle::before {
+  left: unset;
+  margin: auto;
+  right: -9px;
+}
+.subTitle__left {
+  color: var(--primary-color);
+  margin-right: 9px;
+  padding-right: 9px;
+  font-size: 1.1rem ;
+  white-space: nowrap;
+}
+
+.subTitle__right {
+  color: var(--primary-color);
+  margin-left: 9px;
+  padding-left: 9px;
+  font-size: 1.1rem ;
+}
+.pagination-wrapper {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: flex-end;
+}
+.pagination {
+  border-radius: 6px;
+  background-color: #ededed;
+  padding: 2px 4px;
+  margin-bottom: 16px;
+  width: fit-content;
+}
