@@ -33,7 +33,8 @@ export default function SideBar({ openDrawerBar = false, onCloseDrawerBar, onCol
       width={SIDE_BAR_WIDTH}
       trigger={null}
       onCollapse={onCollapse}
-      style={{ height: `calc(100% - ${HEADER_HEIGHT}px)` }}
+      // style={{ height: `calc(100% - ${HEADER_HEIGHT}px)` }}
+      style={{ height: '100%' }}
     >
       <LeftBar />
       {/* drawer bar */}

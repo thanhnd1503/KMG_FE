@@ -89,7 +89,7 @@ const MainContainer = (props: MainContainerProps) => {
         }}
         onWrite={() => {}}
       /> */}
-      <div style={{ height: `calc(100% - ${BREADCRUMB_HEIGHT}px)`, overflowY: 'auto' }} className="scroll-box">
+      <div style={{ height: '100%', overflowY: 'auto' }} className="scroll-box">
         <Outlet />
       </div>
     </div>

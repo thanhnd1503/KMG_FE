@@ -1,5 +1,5 @@
 html body .wrapper {
-  padding: 25px 0px;
+  /* padding: 25px 0px; */
   height: 100%;
   /* position: sticky; */
   background-color: white;
@@ -36,9 +36,9 @@ html body .wrapper {
 }
 
 .sidebar-drawer {
-  margin:auto auto;
-  border-right:1px solid rgba(128, 128, 128, 0.281);
-  width:99%
+  margin: auto auto;
+  border-right: 1px solid rgba(128, 128, 128, 0.281);
+  width: 99%;
 }
 
 .sidebar-item-drawer {

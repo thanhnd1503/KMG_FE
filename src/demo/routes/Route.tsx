@@ -9,6 +9,7 @@ const MainContainer = Loadable(lazy(() => import('../containers/MainContainer'))
 const ListPage = Loadable(lazy(() => import('../pages/ListPage')));
 const ViewPage = Loadable(lazy(() => import('../pages/ViewPage')));
 const DevPage = Loadable(lazy(() => import('../pages/DevComponent')));
+const OtherComponentPage = Loadable(lazy(() => import('../pages/OtherComponent')));
 
 const Routes = {
   path: MENU_DEMO_URL,
@@ -29,6 +30,10 @@ const Routes = {
     {
       path: 'dev',
       element: <DevPage />
+    },
+    {
+      path: 'product-block',
+      element: <OtherComponentPage />
     },
     {
       path: ':subMenu/*',

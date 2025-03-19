@@ -204,21 +204,6 @@ const DevComponent = () => {
           className="title-xl"
           style={{ marginBottom: 20 }}
         >{`<Typography className="title-xl">Text (Name in figma: Title/title-xl)</Typography>`}</Typography>
-
-        {/* Navigation */}
-        <Typography.Title level={1} style={{ marginTop: 20 }}>
-          Navigation
-        </Typography.Title>
-        <Typography style={{ marginTop: 20 }}>
-          about app navigation, it follow useTabs() hook design, open new tab or replace existing page base on design work flow, pls refer
-          it
-        </Typography>
-        <Typography style={{ marginTop: 20, color: 'var(--primary-fg-color-primary-fg-50, #6366F1)' }}>using hook()</Typography>
-        <Typography style={{ marginTop: 20 }}>{`const { addOrActivateTab, directTo } = useTabs();`}</Typography>
-        <Typography style={{ marginTop: 20 }}>open new tab using: addOrActivateTab(url)</Typography>
-        <Typography style={{ marginTop: 20 }}>changing current tab: directTo(url)</Typography>
-        <Typography style={{ marginTop: 20, color: 'var(--primary-fg-color-primary-fg-50, #6366F1)' }}>use component</Typography>
-        <Typography style={{ marginTop: 20 }}>{`<LinkTo to={'/demo/all/view/${`$`}{data['id']'} openTab>{value}</LinkTo>`}</Typography>
       </Flex>
     </div>
   );

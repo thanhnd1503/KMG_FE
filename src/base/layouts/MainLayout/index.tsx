@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Outlet } from 'react-router-dom';
 
 import { ConfigProvider, Layout } from 'antd';
 import { CollapseType } from 'antd/es/layout/Sider';
@@ -57,15 +58,26 @@ const MainLayout = () => {
     <ConfigProvider theme={mainLayoutAntdConfig}>
       {showMask && <div className="mask"></div>}
       <Header onClickButtonMenuOutlined={handleOpenDrawerBar} />
-      <Layout style={{ height: `calc(100vh - ${APP_BAR_HEIGHT}px)`, overflow: 'hidden' }}>
+      <Layout
+        style={{
+          height: `calc(100vh - ${APP_BAR_HEIGHT}px)`,
+
+          overflow: 'hidden'
+        }}
+      >
         <SideBar openDrawerBar={openDrawerBar} onCloseDrawerBar={handleCloseDrawerBar} onCollapse={onCollapse} />
         <Layout.Content
-          style={{
-            marginLeft: marginLeft,
-            transition: 'all ease-in-out 0.3s'
-          }}
+          style={
+            {
+              // marginLeft: marginLeft,
+              // transition: 'all ease-in-out 0.3s'
+            }
+          }
         >
-          <PinTabs />
+          {/* <PinTabs /> */}
+          <div style={{ width: '100%', height: '100%' }}>
+            <Outlet />
+          </div>
         </Layout.Content>
       </Layout>
     </ConfigProvider>
